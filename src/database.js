@@ -8,7 +8,7 @@ try {
             useUnifiedTopology: true,
             useFindAndModify: false
         });
-        console.log('La base de datos esta conectada a: ', db.connection.name, ' V-',db.version);
+        console.log('La base de datos esta conectada a: ', db.connection.name);
     })();    
 } catch (error) {
     console.error(error);   

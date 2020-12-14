@@ -15,8 +15,9 @@ app.use(cors(confgCors));
 // })); 
 app.use(morgan('dev')); //ver las peticiones por consola
 app.use(express.json()); //Leer archivos json
-app.use(express.urlencoded({extends: false})); // permite las peticines post desde formularios html
-//routes
+
+app.use(express.urlencoded({extended: true})); // permite las peticines post desde formularios html
+//routes 
 app.get('/', (req, res) => {
     res.json({ message: "Este es un servicio backend" });
 });
