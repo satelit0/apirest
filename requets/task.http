@@ -3,12 +3,12 @@ GET http://localhost:3000/api/tasks?page=0&size=6&done=true
 ###
 GET http://localhost:3000/api/tasks?page=0&size=6
 ###
-POST http://localhost:3000/api/tasks
+POST http://95f859e3-a48d-4d93-8fd9-6cef19314a15.clouding.host:3000/api/tasks
 Content-Type: application/json
 
 {
-    "title": "Otra tarea agregada no. 8",
-    "description": "Esta es una prueba de plugin!!",
+    "title": "Prueba 1",
+    "description": "Operación prueba 1 !!",
     "done": true    
 }
 ###

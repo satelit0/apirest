@@ -3,6 +3,6 @@
 import { config } from "dotenv";
 config();
 
-export default {
-    mongodbURI: process.env.MONGODB_URI || 'http://localhost:3000'
+export default {  
+    mongodbURL: process.env.MONGODB_URI || "http://localhost:3000" 
 }
